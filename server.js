@@ -1,5 +1,7 @@
 const fastify = require('fastify')({ logger: true });
 
+fastify.register(require('fastify-cors'), { preflight: process.env.FASTIFY_CORS_PREFLIGHT === '1' });
+
 fastify.register(require('./foobar-plugin.js'), { prefix: '/v1/foobar' });
 
 fastify.listen(process.env.PORT, '0.0.0.0')

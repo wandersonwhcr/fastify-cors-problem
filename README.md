@@ -10,6 +10,9 @@ docker run --rm --interactive --tty \
   --volume `pwd`:/app \
   --workdir /app \
   --env PORT=3000 \
+  --env FASTIFY_CORS_PREFLIGHT=1 \
   --publish 3000:3000 \
   node npm start
 ```
+
+Fastify runs normally if `FASTIFY_CORS_PREFLIGHT` is equal to `0`.
