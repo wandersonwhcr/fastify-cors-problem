@@ -16,3 +16,7 @@ docker run --rm --interactive --tty \
 ```
 
 Fastify runs normally if `FASTIFY_CORS_PREFLIGHT` is equal to `0`.
+
+## Workaround
+
+We must register `fastify-cors` after all plugins.
