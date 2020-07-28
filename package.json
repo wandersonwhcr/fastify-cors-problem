@@ -1,0 +1,16 @@
+{
+  "name": "@wandersonwhcr/fastify-cors-problem",
+  "version": "1.0.0-alpha",
+  "description": "An example of fastify-cors breaking fastify global schemas",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wandersonwhcr/fastify-cors-problem.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/wandersonwhcr/fastify-cors-problem/issues"
+  },
+  "homepage": "https://github.com/wandersonwhcr/fastify-cors-problem#readme"
+}
